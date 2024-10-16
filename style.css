@@ -81,6 +81,23 @@ nav {
   font-family: "JetBrains Mono", monospace;
   color: rgb(198, 178, 219);
 }
+.leftbtn{
+  margin-top: 60px;
+  font-size: 1rem;
+}
+.leftbtn a{
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+  padding: 13px;
+  border: 2px solid purple;
+  border-radius: 5px;
+}
+.leftbtn a:hover{
+  background-color: purple;
+  border: none;
+  color: white;
+}
 @media (max-width: 768px) {
   .leftSection{
     font-size: 1.2rem;
@@ -91,6 +108,17 @@ nav {
   }
   .rightSection img{
     width: 150px;
+  }
+  .leftbtn{
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .leftbtn a{
+    text-align: center;
+    border-radius: 2px;
+    padding: 6px;
+    margin: 5px;
   }
 }
 main hr {
